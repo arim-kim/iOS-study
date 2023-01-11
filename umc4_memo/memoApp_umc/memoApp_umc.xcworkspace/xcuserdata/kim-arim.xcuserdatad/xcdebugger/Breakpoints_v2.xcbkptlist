@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CAE62E59-EDFF-4215-991D-AC5C1157B1A8"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12676553-6ECE-4DAE-BC5A-DECB2DE69ADA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "memoApp_umc/memoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "colorData"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "12676553-6ECE-4DAE-BC5A-DECB2DE69ADA - ccd9ebbd1d0980ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "memoApp_umc.memoViewController.colorData.getter : Swift.Array&lt;__C.UIColor&gt;"
+                  moduleName = "memoApp_umc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kim-arim/Desktop/umc_IOS/umc4_memo/memoApp_umc/memoApp_umc/memoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "12676553-6ECE-4DAE-BC5A-DECB2DE69ADA - 4687a32cfe4750b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "memoApp_umc.memoViewController.colorData.setter : Swift.Array&lt;__C.UIColor&gt;"
+                  moduleName = "memoApp_umc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kim-arim/Desktop/umc_IOS/umc4_memo/memoApp_umc/memoApp_umc/memoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "12676553-6ECE-4DAE-BC5A-DECB2DE69ADA - b53a5543db0e24a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "memoApp_umc.memoViewController.colorData.modify : Swift.Array&lt;__C.UIColor&gt;"
+                  moduleName = "memoApp_umc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kim-arim/Desktop/umc_IOS/umc4_memo/memoApp_umc/memoApp_umc/memoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "12676553-6ECE-4DAE-BC5A-DECB2DE69ADA - 7ae279da41f1de33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "memoApp_umc.memoViewController.colorData.modify : Swift.Array&lt;__C.UIColor&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "memoApp_umc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kim-arim/Desktop/umc_IOS/umc4_memo/memoApp_umc/memoApp_umc/memoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "12676553-6ECE-4DAE-BC5A-DECB2DE69ADA - 451f73e81b6849f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "memoApp_umc.memoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; memoApp_umc.memoViewController"
+                  moduleName = "memoApp_umc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kim-arim/Desktop/umc_IOS/umc4_memo/memoApp_umc/memoApp_umc/memoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2216">
+               </Location>
+               <Location
+                  uuid = "12676553-6ECE-4DAE-BC5A-DECB2DE69ADA - 55e3c3a877186194"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "memoApp_umc.memoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;memoApp_umc.memoViewController&gt;"
+                  moduleName = "memoApp_umc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kim-arim/Desktop/umc_IOS/umc4_memo/memoApp_umc/memoApp_umc/memoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

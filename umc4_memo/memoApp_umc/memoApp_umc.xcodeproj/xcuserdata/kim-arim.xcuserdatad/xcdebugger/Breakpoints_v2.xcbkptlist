@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7A83A36F-47CE-404A-9FA8-9A5B4277653A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9D6463C-0971-41F1-982C-89FE990D8EA4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "memoApp_umc/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "SecondViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E9D6463C-0971-41F1-982C-89FE990D8EA4 - d7299b520e797d28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "memoApp_umc.SecondViewController.titleField.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "memoApp_umc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kim-arim/Desktop/umc_IOS/umc4_memo/memoApp_umc/memoApp_umc/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "E9D6463C-0971-41F1-982C-89FE990D8EA4 - 29723633f6fb8934"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "memoApp_umc.SecondViewController.titleField.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "memoApp_umc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kim-arim/Desktop/umc_IOS/umc4_memo/memoApp_umc/memoApp_umc/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "E9D6463C-0971-41F1-982C-89FE990D8EA4 - 239fa2d4511dd025"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "memoApp_umc.SecondViewController.titleField.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "memoApp_umc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kim-arim/Desktop/umc_IOS/umc4_memo/memoApp_umc/memoApp_umc/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "E9D6463C-0971-41F1-982C-89FE990D8EA4 - 2edf4a18d497d376"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "memoApp_umc.SecondViewController.titleField.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "memoApp_umc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kim-arim/Desktop/umc_IOS/umc4_memo/memoApp_umc/memoApp_umc/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "E9D6463C-0971-41F1-982C-89FE990D8EA4 - 28ba0e3a07e5cf82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "memoApp_umc.SecondViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; memoApp_umc.SecondViewController"
+                  moduleName = "memoApp_umc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kim-arim/Desktop/umc_IOS/umc4_memo/memoApp_umc/memoApp_umc/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "E9D6463C-0971-41F1-982C-89FE990D8EA4 - b4570ab3f92778fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "memoApp_umc.SecondViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;memoApp_umc.SecondViewController&gt;"
+                  moduleName = "memoApp_umc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kim-arim/Desktop/umc_IOS/umc4_memo/memoApp_umc/memoApp_umc/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8AE3884-90D5-4D14-981B-1BC6FAE05C1F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "memoApp_umc/memoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF38FFE7-E441-4E17-A715-646422DE94A4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "memoApp_umc/memoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "memoData"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "EF38FFE7-E441-4E17-A715-646422DE94A4 - 451f73e81b6849f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "memoApp_umc.memoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; memoApp_umc.memoViewController"
+                  moduleName = "memoApp_umc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kim-arim/Desktop/umc_IOS/umc4_memo/memoApp_umc/memoApp_umc/memoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2216">
+               </Location>
+               <Location
+                  uuid = "EF38FFE7-E441-4E17-A715-646422DE94A4 - 55e3c3a877186194"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "memoApp_umc.memoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;memoApp_umc.memoViewController&gt;"
+                  moduleName = "memoApp_umc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kim-arim/Desktop/umc_IOS/umc4_memo/memoApp_umc/memoApp_umc/memoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,6 @@
+framework module Pods_memoApp_umc {
+  umbrella header "Pods-memoApp_umc-umbrella.h"
+
+  export *
+  module * { export * }
+}

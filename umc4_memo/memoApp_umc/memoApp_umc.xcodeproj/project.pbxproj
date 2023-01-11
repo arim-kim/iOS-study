@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D0F749DF33209F1B75A6E34 /* Pods_memoApp_umc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46767135ADF2754093FEEBB3 /* Pods_memoApp_umc.framework */; };
+		F46B1151290FDA6600EFB47B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46B1150290FDA6600EFB47B /* AppDelegate.swift */; };
+		F46B1153290FDA6600EFB47B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46B1152290FDA6600EFB47B /* SceneDelegate.swift */; };
+		F46B1155290FDA6600EFB47B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46B1154290FDA6600EFB47B /* ViewController.swift */; };
+		F46B1158290FDA6600EFB47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46B1156290FDA6600EFB47B /* Main.storyboard */; };
+		F46B115A290FDA6700EFB47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46B1159290FDA6700EFB47B /* Assets.xcassets */; };
+		F46B115D290FDA6700EFB47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46B115B290FDA6700EFB47B /* LaunchScreen.storyboard */; };
+		F46B1165290FDA9100EFB47B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46B1164290FDA9100EFB47B /* SecondViewController.swift */; };
+		F46B1167290FE51200EFB47B /* memoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46B1166290FE51200EFB47B /* memoViewController.swift */; };
+		F46B1169290FE72600EFB47B /* MemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46B1168290FE72600EFB47B /* MemoTableViewCell.swift */; };
+		F4D2049F2915F6310021AD92 /* refresh_indicator.json in Resources */ = {isa = PBXBuildFile; fileRef = F4D2049E2915F6310021AD92 /* refresh_indicator.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4515977E6198BC733055BF48 /* Pods-memoApp_umc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memoApp_umc.release.xcconfig"; path = "Target Support Files/Pods-memoApp_umc/Pods-memoApp_umc.release.xcconfig"; sourceTree = "<group>"; };
+		46767135ADF2754093FEEBB3 /* Pods_memoApp_umc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_memoApp_umc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46B114D290FDA6600EFB47B /* memoApp_umc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memoApp_umc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46B1150290FDA6600EFB47B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F46B1152290FDA6600EFB47B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F46B1154290FDA6600EFB47B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F46B1157290FDA6600EFB47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F46B1159290FDA6700EFB47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F46B115C290FDA6700EFB47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F46B115E290FDA6700EFB47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46B1164290FDA9100EFB47B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F46B1166290FE51200EFB47B /* memoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoViewController.swift; sourceTree = "<group>"; };
+		F46B1168290FE72600EFB47B /* MemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTableViewCell.swift; sourceTree = "<group>"; };
+		F4D2049E2915F6310021AD92 /* refresh_indicator.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = refresh_indicator.json; path = ../../../../../Downloads/refresh_indicator.json; sourceTree = "<group>"; };
+		F687A174E85CB172B3C29906 /* Pods-memoApp_umc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memoApp_umc.debug.xcconfig"; path = "Target Support Files/Pods-memoApp_umc/Pods-memoApp_umc.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46B114A290FDA6600EFB47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0F749DF33209F1B75A6E34 /* Pods_memoApp_umc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C8A6689FE03D614FDDE2F8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46767135ADF2754093FEEBB3 /* Pods_memoApp_umc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96382E86C6085138AB48D691 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F687A174E85CB172B3C29906 /* Pods-memoApp_umc.debug.xcconfig */,
+				4515977E6198BC733055BF48 /* Pods-memoApp_umc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F46B1144290FDA6600EFB47B = {
+			isa = PBXGroup;
+			children = (
+				F46B114F290FDA6600EFB47B /* memoApp_umc */,
+				F46B114E290FDA6600EFB47B /* Products */,
+				96382E86C6085138AB48D691 /* Pods */,
+				1C8A6689FE03D614FDDE2F8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F46B114E290FDA6600EFB47B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46B114D290FDA6600EFB47B /* memoApp_umc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46B114F290FDA6600EFB47B /* memoApp_umc */ = {
+			isa = PBXGroup;
+			children = (
+				F4D2049E2915F6310021AD92 /* refresh_indicator.json */,
+				F46B1150290FDA6600EFB47B /* AppDelegate.swift */,
+				F46B1152290FDA6600EFB47B /* SceneDelegate.swift */,
+				F46B1154290FDA6600EFB47B /* ViewController.swift */,
+				F46B1156290FDA6600EFB47B /* Main.storyboard */,
+				F46B1168290FE72600EFB47B /* MemoTableViewCell.swift */,
+				F46B1166290FE51200EFB47B /* memoViewController.swift */,
+				F46B1164290FDA9100EFB47B /* SecondViewController.swift */,
+				F46B1159290FDA6700EFB47B /* Assets.xcassets */,
+				F46B115B290FDA6700EFB47B /* LaunchScreen.storyboard */,
+				F46B115E290FDA6700EFB47B /* Info.plist */,
+			);
+			path = memoApp_umc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F46B114C290FDA6600EFB47B /* memoApp_umc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46B1161290FDA6700EFB47B /* Build configuration list for PBXNativeTarget "memoApp_umc" */;
+			buildPhases = (
+				97949BE2888413EF39DF35AA /* [CP] Check Pods Manifest.lock */,
+				F46B1149290FDA6600EFB47B /* Sources */,
+				F46B114A290FDA6600EFB47B /* Frameworks */,
+				F46B114B290FDA6600EFB47B /* Resources */,
+				F56C20ED6260C7536425FCD9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = memoApp_umc;
+			productName = memoApp_umc;
+			productReference = F46B114D290FDA6600EFB47B /* memoApp_umc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46B1145290FDA6600EFB47B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F46B114C290FDA6600EFB47B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F46B1148290FDA6600EFB47B /* Build configuration list for PBXProject "memoApp_umc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F46B1144290FDA6600EFB47B;
+			productRefGroup = F46B114E290FDA6600EFB47B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46B114C290FDA6600EFB47B /* memoApp_umc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46B114B290FDA6600EFB47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D2049F2915F6310021AD92 /* refresh_indicator.json in Resources */,
+				F46B115D290FDA6700EFB47B /* LaunchScreen.storyboard in Resources */,
+				F46B115A290FDA6700EFB47B /* Assets.xcassets in Resources */,
+				F46B1158290FDA6600EFB47B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97949BE2888413EF39DF35AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-memoApp_umc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F56C20ED6260C7536425FCD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-memoApp_umc/Pods-memoApp_umc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-memoApp_umc/Pods-memoApp_umc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-memoApp_umc/Pods-memoApp_umc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46B1149290FDA6600EFB47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46B1167290FE51200EFB47B /* memoViewController.swift in Sources */,
+				F46B1169290FE72600EFB47B /* MemoTableViewCell.swift in Sources */,
+				F46B1165290FDA9100EFB47B /* SecondViewController.swift in Sources */,
+				F46B1155290FDA6600EFB47B /* ViewController.swift in Sources */,
+				F46B1151290FDA6600EFB47B /* AppDelegate.swift in Sources */,
+				F46B1153290FDA6600EFB47B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F46B1156290FDA6600EFB47B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46B1157290FDA6600EFB47B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F46B115B290FDA6700EFB47B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46B115C290FDA6700EFB47B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F46B115F290FDA6700EFB47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F46B1160290FDA6700EFB47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F46B1162290FDA6700EFB47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F687A174E85CB172B3C29906 /* Pods-memoApp_umc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAW6ZBDXVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = memoApp_umc/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ARIM.memoApp-umc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F46B1163290FDA6700EFB47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4515977E6198BC733055BF48 /* Pods-memoApp_umc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAW6ZBDXVN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = memoApp_umc/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ARIM.memoApp-umc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46B1148290FDA6600EFB47B /* Build configuration list for PBXProject "memoApp_umc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46B115F290FDA6700EFB47B /* Debug */,
+				F46B1160290FDA6700EFB47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46B1161290FDA6700EFB47B /* Build configuration list for PBXNativeTarget "memoApp_umc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46B1162290FDA6700EFB47B /* Debug */,
+				F46B1163290FDA6700EFB47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46B1145290FDA6600EFB47B /* Project object */;
+}

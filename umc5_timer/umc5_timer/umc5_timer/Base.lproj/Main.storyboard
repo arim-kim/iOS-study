@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="umc5_timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrU-7y-WFg">
+                                <rect key="frame" x="129.5" y="98" width="155.5" height="47"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="PoMo Run">
+                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="27"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="timerRunClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="237-o5-5JP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IY1-8l-8dh">
+                                <rect key="frame" x="175.5" y="145" width="63" height="37"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="stop">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="19"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="stopBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gat-T9-6W8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZY-tu-pdb">
+                                <rect key="frame" x="176" y="702" width="62" height="32"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="reset">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="resetBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rlj-Pv-go1"/>
+                                </connections>
+                            </button>
+                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h33-3i-kN4">
+                                <rect key="frame" x="87" y="542" width="240" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ready" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCG-vn-ss4">
+                                        <rect key="frame" x="20" y="19.5" width="43" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wC0-3f-wc5">
+                                        <rect key="frame" x="93" y="7.5" width="102.5" height="45"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="2RD-iR-OVE"/>
+                                    <constraint firstItem="wC0-3f-wc5" firstAttribute="leading" secondItem="sCG-vn-ss4" secondAttribute="trailing" constant="30" id="5Xf-CK-OCL"/>
+                                    <constraint firstItem="sCG-vn-ss4" firstAttribute="leading" secondItem="h33-3i-kN4" secondAttribute="leading" constant="20" id="NoO-Dy-Vnm"/>
+                                    <constraint firstItem="sCG-vn-ss4" firstAttribute="centerY" secondItem="h33-3i-kN4" secondAttribute="centerY" id="P9M-v4-WFs"/>
+                                    <constraint firstItem="wC0-3f-wc5" firstAttribute="centerY" secondItem="h33-3i-kN4" secondAttribute="centerY" id="wY1-0V-Q4l"/>
+                                    <constraint firstAttribute="height" constant="60" id="yMp-VX-XnX"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRm-Hu-cMF">
+                                <rect key="frame" x="107" y="282" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="oJy-MG-gmt"/>
+                                    <constraint firstAttribute="width" constant="200" id="u5g-PX-Hf5"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" imagePadding="1">
+                                    <imageReference key="image" image="tv.music.note.fill" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="98"/>
+                                    <attributedString key="attributedTitle"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="musicBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="29r-lk-h61"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="succeed count : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UeI-Ry-jiL">
+                                <rect key="frame" x="144" y="267" width="126" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="h33-3i-kN4" firstAttribute="top" secondItem="YRm-Hu-cMF" secondAttribute="bottom" constant="60" id="14q-bZ-bPe"/>
+                            <constraint firstItem="YRm-Hu-cMF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2wT-v4-0J6"/>
+                            <constraint firstItem="vZY-tu-pdb" firstAttribute="top" secondItem="h33-3i-kN4" secondAttribute="bottom" constant="100" id="552-Hl-CpV"/>
+                            <constraint firstItem="h33-3i-kN4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Iw-zc-C1J"/>
+                            <constraint firstItem="UeI-Ry-jiL" firstAttribute="top" secondItem="IY1-8l-8dh" secondAttribute="bottom" constant="85" id="BNx-Bk-6bY"/>
+                            <constraint firstItem="YRm-Hu-cMF" firstAttribute="top" secondItem="IY1-8l-8dh" secondAttribute="bottom" constant="100" id="N8B-fZ-Un4"/>
+                            <constraint firstItem="vZY-tu-pdb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VTI-sl-meh"/>
+                            <constraint firstItem="IY1-8l-8dh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ftl-MA-yec"/>
+                            <constraint firstItem="SrU-7y-WFg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ick-Mh-pbx"/>
+                            <constraint firstItem="UeI-Ry-jiL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oIo-q4-kkD"/>
+                            <constraint firstItem="IY1-8l-8dh" firstAttribute="top" secondItem="SrU-7y-WFg" secondAttribute="bottom" id="tvK-Xp-s6m"/>
+                            <constraint firstItem="SrU-7y-WFg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="x50-yj-V9W"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="w7X-Om-XaO" appends="YES" id="Fbs-Oe-wPk"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="musicBtn" destination="YRm-Hu-cMF" id="fe1-xA-qTX"/>
+                        <outlet property="resetBtn" destination="vZY-tu-pdb" id="af7-VH-uxT"/>
+                        <outlet property="startBtn" destination="SrU-7y-WFg" id="L2k-Pi-bPE"/>
+                        <outlet property="statusLabel" destination="sCG-vn-ss4" id="4S6-fP-pW6"/>
+                        <outlet property="status_timeContainer" destination="h33-3i-kN4" id="ou9-6v-1eP"/>
+                        <outlet property="stopBtn" destination="IY1-8l-8dh" id="dQa-0H-bhv"/>
+                        <outlet property="succeedCountLabel" destination="UeI-Ry-jiL" id="UJq-8G-dWp"/>
+                        <outlet property="timeLable" destination="wC0-3f-wc5" id="hAg-5b-Bgz"/>
+                        <outlet property="viewTapGestureReco" destination="w7X-Om-XaO" id="YXA-RE-M0A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="w7X-Om-XaO"/>
+            </objects>
+            <point key="canvasLocation" x="79.710144927536234" y="76.339285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tv.music.note.fill" catalog="system" width="128" height="95"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
